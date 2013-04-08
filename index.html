@@ -11,7 +11,7 @@
         <meta name="author" content="Ian Alexander">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="/media/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/media/css/bootstrap.css">
 
         <style>
             body {
@@ -22,6 +22,7 @@
 
         <link rel="stylesheet" href="/media/css/bootstrap-responsive.css">
         <link rel="stylesheet" href="/media/css/main.css">
+        <link rel="stylesheet" href="/media/css/pygments.css">
 
         <script src="/media/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
@@ -73,5 +74,21 @@
         <script src="/media/js/plugins.js"></script>
         <script src="/media/js/main.js"></script>
 
-                            </body>
+                <!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet
+       change the UA-XXXXX-X to be your site's ID -->
+<script>
+    var _gaq = [['_setAccount', 'UA-32310051-1'], ['_trackPageview']];
+    (function(d, t) {
+    var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+    g.async = true;
+    g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g, s);
+    })(document, 'script');
+
+    function clickme(link) {
+		return _gaq.push(['_trackEvent', 'Outgoing Links', 'Click', link]);
+  	}
+</script>
+            </body>
 </html>
