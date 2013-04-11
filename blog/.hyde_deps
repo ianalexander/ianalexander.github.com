@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>blog</title>
+        <title></title>
         <meta name="description" content="">
         <meta name="author" content="Ian Alexander">
         <meta name="viewport" content="width=device-width">
@@ -49,25 +49,31 @@
         </div>
 
         <div class="container">
-            <div class="row">
-    <div class="span8 offset2">
-    	<p>
-	        <h3 class="list-title"><a href="/blog/building-a-true-oauth-20-api-with-django-and-tasty-pie.html">Building a True OAuth 2.0 API with Django and Tasty Pie</a></h3>
-	        <span class="list-info">by Ian on April 10, 2013</span>
-	        <span class="list-excerpt"><p>Almost a year ago PyDanny wrote a great article entitled &#8220;The Sorry State of Python OAuth Providers&#8221; detailing the abysmal state of OAuth in Python. One year later we have a few more options, and here I am going to detail how I made a django-based OAuth 2.0 <span class="caps">API</span> with Tasty&nbsp;Pie.</p></span>
-	    </p>
-    </div>
-</div>
-<div class="row">
-    <div class="span8 offset2">
-    	<p>
-	        <h3 class="list-title"><a href="/blog/does-the-internet-really-need-another-blog.html">Does the Internet really need another Blog?</a></h3>
-	        <span class="list-info">by Ian on April  7, 2013</span>
-	        <span class="list-excerpt"><p>After going back and forth for the last couple of months, I&#8217;ve decided to start writing again. One of the main points I wrestled with was, does the internet need another blog? What value can I add? What will readers gain from my perspective? I have decided that this is a narrow&nbsp;view.</p></span>
-	    </p>
-    </div>
-</div>
+                        <div class="row">
+                <div class="span8 offset2">
+                    <h2 class="post-title"></h2>
+    <p class="post-info">
+        posted by Ian on January  1, 2010
+    </p>
 
+    <p>{}</p>
+    <div class="post-comments">
+        <h2 class="post-title">Comments</h2>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            var disqus_shortname = 'ianalexandr';
+
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+                </div>
+            </div>
+            
             <br/>
             <footer>
                 <p id="footer">
