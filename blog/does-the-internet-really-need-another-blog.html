@@ -25,7 +25,23 @@
         <link rel="stylesheet" href="/media/css/pygments.css">
 
         <script src="/media/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    </head>
+                <!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet
+       change the UA-XXXXX-X to be your site's ID -->
+<script>
+    var _gaq = [['_setAccount', 'UA-32310051-1'], ['_trackPageview']];
+    (function(d, t) {
+    var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+    g.async = true;
+    g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g, s);
+    })(document, 'script');
+
+    function clickme(link) {
+		return _gaq.push(['_trackEvent', 'Outgoing Links', 'Click', link]);
+  	}
+</script>
+            </head>
     <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
@@ -101,22 +117,5 @@
 
         <script src="/media/js/plugins.js"></script>
         <script src="/media/js/main.js"></script>
-
-                <!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet
-       change the UA-XXXXX-X to be your site's ID -->
-<script>
-    var _gaq = [['_setAccount', 'UA-32310051-1'], ['_trackPageview']];
-    (function(d, t) {
-    var g = d.createElement(t),
-        s = d.getElementsByTagName(t)[0];
-    g.async = true;
-    g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g, s);
-    })(document, 'script');
-
-    function clickme(link) {
-		return _gaq.push(['_trackEvent', 'Outgoing Links', 'Click', link]);
-  	}
-</script>
-            </body>
+    </body>
 </html>
