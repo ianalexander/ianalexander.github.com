@@ -7,10 +7,64 @@
         <link href="/"/>
     
         
-    <updated>2013-04-23T14:34:17Z</updated>
+    <updated>2013-05-20T14:16:45Z</updated>
 
     <id>/atom.xml/</id>
 
+            <entry>
+            <title type="html">Summary of the Amazon Web Services AMA</title>
+            <author><name>Ian Alexander</name></author>
+            <link href="/blog/summary-of-amazon-web-services-ama.html"/>
+            <updated>2013-05-20T22:00:00Z</updated>
+            <published>2013-05-20T22:00:00Z</published>
+            <id>/blog/summary-of-amazon-web-services-ama.html</id>
+            
+            <content type="html">
+                                &lt;p&gt;Last week, a reddit user under the name &amp;#8216;&lt;span class=&#34;caps&#34;&gt;AWSIAMA&lt;/span&gt;&amp;#8217; &lt;a href=&#34;http://www.reddit.com/r/IAmA/comments/1e5o4p/iaman_exaws_engineer_ask_me_anything_about_the/&#34;&gt;posted an &lt;span class=&#34;caps&#34;&gt;AMA&lt;/span&gt;&lt;/a&gt; about being an Engineer at the &lt;span class=&#34;caps&#34;&gt;AWS&lt;/span&gt; cloud. Like most Reddit AMAs, there is a lot of noise to get to the really good parts. This is a summary of the &lt;span class=&#34;caps&#34;&gt;AMA&lt;/span&gt; highlighting the most interesting and useful pieces of&amp;nbsp;information.&lt;/p&gt;
+&lt;h2&gt;Working at&amp;nbsp;Amazon&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Negative, their stock plan isn&amp;#8217;t very great either. You don&amp;#8217;t go to Amazon for the pay. You go for the free beer, literally. Also, there is a 10% discount on all things at Amazon.com up to the first $1000. So a maximum of $100 in savings. The companies core values include &amp;#8220;frugality&amp;#8221; and that&amp;#8217;s just the word &amp;#8220;cheap&amp;#8221; wrapped up in a&amp;nbsp;bow.&lt;/p&gt;
+&lt;p&gt;&amp;#8230;&lt;/p&gt;
+&lt;p&gt;Amazon is a product of the past laying the groundwork for the future. One of my friends who was a &lt;span class=&#34;caps&#34;&gt;SDE&lt;/span&gt; (Software Development Engineer) had the most mundane tasks ever. He actually quit as well and went to work somewhere for a little less money, but doing some far more rewarding&amp;nbsp;work.&lt;/p&gt;
+&lt;p&gt;Putting Amazon &lt;span class=&#34;caps&#34;&gt;SDE&lt;/span&gt; on your resume is quickly turning into the same thing as putting Google &lt;span class=&#34;caps&#34;&gt;SDE&lt;/span&gt; on your resume. So, while you may feel it&amp;#8217;s boring, the real reward will be the job opportunities in the&amp;nbsp;future.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;&lt;span class=&#34;dquo&#34;&gt;&amp;#8220;&lt;/span&gt;The Cloud&amp;#8221; and Marketing&amp;nbsp;Hype&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The cloud, it&amp;#8217;s an &amp;#8220;interesting&amp;#8221; concept, because in a lot of ways it&amp;#8217;s still just a &lt;span class=&#34;caps&#34;&gt;VPS&lt;/span&gt;. Sure it has some redundant features, but the definition of cloud is fairly dynamic and bent to fit whatever a company wants to sell as a&amp;nbsp;&amp;#8220;cloud&amp;#8221;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;The&amp;nbsp;Competition&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I believe that Microsoft Azure and &lt;span class=&#34;caps&#34;&gt;AWS&lt;/span&gt; (as well as Google Compute Cloud, Rackspace and even places like Linode) are all on the same playing field to a point. If it was a venn diagram (remember 2nd grade now) there would be major overlap. The places outside the overlap is what differentiates all the individual&amp;nbsp;companies.&lt;/p&gt;
+&lt;p&gt;I think that healthy competition will drive down pricing to fair levels as well as encourage upgrades and better levels of quality all around. As far as serious threat? Well, no, I don&amp;#8217;t consider Azure a threat to &lt;span class=&#34;caps&#34;&gt;AWS&lt;/span&gt;, but I consider Google a threat to &lt;span class=&#34;caps&#34;&gt;AWS&lt;/span&gt;. Google&amp;#8217;s cloud has been outperforming &lt;span class=&#34;caps&#34;&gt;AWS&lt;/span&gt; since very private beta and performance means a lot in the&amp;nbsp;cloud.&lt;/p&gt;
+&lt;p&gt;Anyone who thinks there is a &amp;#8220;cloud war&amp;#8221; currently and &lt;span class=&#34;caps&#34;&gt;AWS&lt;/span&gt; is seeing any type of real challenge is just fooling themselves. Nobody can compete currently with the size of &lt;span class=&#34;caps&#34;&gt;AWS&lt;/span&gt;, they were the first in and will be the last&amp;nbsp;out.&lt;/p&gt;
+&lt;p&gt;Google however will make it rain a bit, I&amp;#8217;ve been using their cloud platform a little bit lately and I have to say. It&amp;#8217;s hella&amp;nbsp;impressive.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;&lt;span class=&#34;caps&#34;&gt;EBS&lt;/span&gt;, &lt;span class=&#34;caps&#34;&gt;EBS&lt;/span&gt;-Optimized &lt;span class=&#34;amp&#34;&gt;&amp;amp;&lt;/span&gt; Provisioned&amp;nbsp;&lt;span class=&#34;caps&#34;&gt;IOPS&lt;/span&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;span class=&#34;caps&#34;&gt;EBS&lt;/span&gt; v. EBSo is honestly the easiest thing to explain why you need it. &lt;span class=&#34;caps&#34;&gt;EBS&lt;/span&gt; and network traffic flows over the same &lt;span class=&#34;caps&#34;&gt;NIC&lt;/span&gt;. EBSo adds a &lt;span class=&#34;caps&#34;&gt;QOS&lt;/span&gt; marker to the packets. That simple. Anyone you talk to with some networking background will explain to you that by doing that, you&amp;#8217;re going to significantly smooth out your &lt;span class=&#34;caps&#34;&gt;EBS&lt;/span&gt; experience under heavy load&amp;nbsp;instantly.&lt;/p&gt;
+&lt;p&gt;The ratio is simply marketing, it&amp;#8217;s the internal break point. If you&amp;#8217;re using &lt;span class=&#34;caps&#34;&gt;10GB&lt;/span&gt; and rushing 30k &lt;span class=&#34;caps&#34;&gt;IOPS&lt;/span&gt; over it, they&amp;#8217;re not actually breaking even on the disk since you&amp;#8217;re over utilizing the network bandwidth. The 10:1 ratio helps keep the whole system in that happy green zone where there is a nice profit margin and good&amp;nbsp;performance.&lt;/p&gt;
+&lt;p&gt;Provisioned &lt;span class=&#34;caps&#34;&gt;IOPS&lt;/span&gt; are typically best to move to &lt;span class=&#34;caps&#34;&gt;AFTER&lt;/span&gt; you learn what your disk io is going to look like. Profile your &lt;span class=&#34;caps&#34;&gt;EBS&lt;/span&gt; volumes, and if you use on average 318 &lt;span class=&#34;caps&#34;&gt;IOPS&lt;/span&gt; throughout the month, then allocate &lt;span class=&#34;caps&#34;&gt;280IOP&lt;/span&gt; disks, if you calculate out the &lt;span class=&#34;caps&#34;&gt;IOPS&lt;/span&gt; cost on non &lt;span class=&#34;caps&#34;&gt;PIOPS&lt;/span&gt; disks to &lt;span class=&#34;caps&#34;&gt;PIOPS&lt;/span&gt; cost, you&amp;#8217;ll&amp;nbsp;save.&lt;/p&gt;
+&lt;p&gt;Consider &lt;span class=&#34;caps&#34;&gt;PIOPS&lt;/span&gt; more of reservation and then it&amp;#8217;s best paired with EBSo to ensure you can get quality &lt;span class=&#34;caps&#34;&gt;IO&lt;/span&gt; at all&amp;nbsp;times.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;&lt;span class=&#34;dquo&#34;&gt;&amp;#8220;&lt;/span&gt;Dirty Secret&amp;#8221; of&amp;nbsp;&lt;span class=&#34;caps&#34;&gt;RDS&lt;/span&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;So, here&amp;#8217;s a &lt;span class=&#34;caps&#34;&gt;BIG&lt;/span&gt; secret to &lt;span class=&#34;caps&#34;&gt;RDS&lt;/span&gt;. Create a new &lt;span class=&#34;caps&#34;&gt;RDS&lt;/span&gt; instance. Allocate the minimum amount of storage possible. Then, increase that storage by &lt;span class=&#34;caps&#34;&gt;5GB&lt;/span&gt; (only works on Oracle and MySQL) until you hit how much you want. Yes, this is slow, yes, this is a &lt;span class=&#34;caps&#34;&gt;HUGE&lt;/span&gt; pain in the ass. But, everytime you increase storage, you&amp;#8217;re striping disks. More disks = better io and less seek time and in turn reducing &lt;span class=&#34;caps&#34;&gt;CPU&lt;/span&gt; load and increasing responsiveness. Dirty little secret, lots of people do&amp;nbsp;it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;&lt;span class=&#34;caps&#34;&gt;AWS&lt;/span&gt;&amp;#8217; Xen&amp;nbsp;Setup&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Well, typically the hardware nodes (&lt;span class=&#34;caps&#34;&gt;HN&lt;/span&gt;) runs a copy of Amazon Linux, which has several internal flavors. Obviously this is done to maintain image quality and keep reproducibility. Each &lt;span class=&#34;caps&#34;&gt;HN&lt;/span&gt; is silo&amp;#8217;d like you say. So, if you&amp;#8217;re running m1.xl, you&amp;#8217;ll be sharing with only other m1.xl&amp;#8217;s. There are two flavors of &lt;span class=&#34;caps&#34;&gt;HN&lt;/span&gt;&amp;#8217;s, one for &amp;#8220;on-demand&amp;#8221; and one for &amp;#8220;vpc&amp;#8221; (hence the new &lt;span class=&#34;caps&#34;&gt;VPC&lt;/span&gt; by default announcement to fix that disparity). On the old on-demand &lt;span class=&#34;caps&#34;&gt;HN&lt;/span&gt;&amp;#8217;s you have &amp;#8220;slots&amp;#8221;, each slot is assigned an internal &lt;span class=&#34;caps&#34;&gt;IP&lt;/span&gt; address. Once your server is in a slot, it get&amp;#8217;s that internal &lt;span class=&#34;caps&#34;&gt;IP&lt;/span&gt; address and an &lt;span class=&#34;caps&#34;&gt;EIP&lt;/span&gt; is &lt;span class=&#34;caps&#34;&gt;NAT&lt;/span&gt;&amp;#8217;d to that internal&amp;nbsp;&lt;span class=&#34;caps&#34;&gt;IP&lt;/span&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;On-Demand vs.&amp;nbsp;&lt;span class=&#34;caps&#34;&gt;VPC&lt;/span&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The major difference between &lt;span class=&#34;caps&#34;&gt;VPC&lt;/span&gt; and On-Demand &lt;span class=&#34;caps&#34;&gt;HN&lt;/span&gt;&amp;#8217;s is the fact that the On-Demand &lt;span class=&#34;caps&#34;&gt;HN&lt;/span&gt;&amp;#8217;s, like I said, have IPs assigned to the slots. Where the &lt;span class=&#34;caps&#34;&gt;VPC&lt;/span&gt; &lt;span class=&#34;caps&#34;&gt;HN&lt;/span&gt;&amp;#8217;s do as well, but they&amp;#8217;re not used. They get your subnet routed to them. They get &lt;span class=&#34;caps&#34;&gt;EC2&lt;/span&gt; &amp;#8220;slots&amp;#8221; because it&amp;#8217;s easier to maintain a single platform as much as possible and diverging as less as&amp;nbsp;possible.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;&lt;span class=&#34;caps&#34;&gt;NAT&lt;/span&gt;&amp;nbsp;Servers&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As far as &lt;span class=&#34;caps&#34;&gt;NAT&lt;/span&gt; servers, hate them sons of bitches. Honestly, Amazon should have invested in real hardware. &lt;span class=&#34;caps&#34;&gt;NAT&lt;/span&gt; instances aren&amp;#8217;t actually &amp;#8220;&lt;span class=&#34;caps&#34;&gt;NAT&lt;/span&gt;&amp;#8221; according to &lt;span class=&#34;caps&#34;&gt;RFC&lt;/span&gt;, they&amp;#8217;re actually &lt;span class=&#34;caps&#34;&gt;PAT&lt;/span&gt; (Port Address Translation). They just translate all ports and forward them. However, because the &lt;span class=&#34;caps&#34;&gt;NAT&lt;/span&gt; devices are actually x86 devices, you gotta use a ton of them to get the throughput of a single mid-grade router doing the same function due to a lack of &lt;span class=&#34;caps&#34;&gt;ASIC&lt;/span&gt; chips. Stupid choice&amp;nbsp;imo.&lt;/p&gt;
+&lt;p&gt;The &lt;span class=&#34;caps&#34;&gt;NAT&lt;/span&gt; devices which are doing all this work are called &amp;#8220;Blackfoots&amp;#8221; unless you&amp;#8217;ve spawned a specific &amp;#8220;&lt;span class=&#34;caps&#34;&gt;NAT&lt;/span&gt; Instance&amp;#8221; in your &lt;span class=&#34;caps&#34;&gt;VPC&lt;/span&gt;, which is an instance, obviously. The Blackfoots are shared &lt;span class=&#34;caps&#34;&gt;NAT&lt;/span&gt; devices on fairly beefy hardware and do multiple 10Gb network ports worth of&amp;nbsp;&lt;span class=&#34;caps&#34;&gt;PAT&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;If I were to re-architect the network layer, I would grab a handful of Nexus 7000&amp;#8217;s for routing all my internal traffic, do 1:1 natting at the Nexus, then run some Nexus 5000&amp;#8217;s to each row of racks and terminate each rack with a Nexus fabric extender. The network performance increase would most likely give people whiplash from their neck snapping&amp;nbsp;back.&lt;/p&gt;
+&lt;/blockquote&gt;            </content>
+        </entry>
             <entry>
             <title type="html">Using EC2 Security Groups with Puppet's ENC in Python</title>
             <author><name>Ian Alexander</name></author>
