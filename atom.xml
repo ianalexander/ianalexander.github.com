@@ -7,10 +7,120 @@
         <link href="/"/>
     
         
-    <updated>2013-05-24T18:23:41Z</updated>
+    <updated>2013-06-20T12:10:39Z</updated>
 
     <id>/atom.xml/</id>
 
+            <entry>
+            <title type="html">A Brief History of Facebook Products</title>
+            <author><name>Ian Alexander</name></author>
+            <link href="/blog/a-brief-history-of-facebook-products.html"/>
+            <updated>2013-06-20T22:00:00Z</updated>
+            <published>2013-06-20T22:00:00Z</published>
+            <id>/blog/a-brief-history-of-facebook-products.html</id>
+            
+            <content type="html">
+                                &lt;p&gt;Today Facebook has announced their Vine clone to much anticipation. The service allows for 15 second videos, stylistic filters, and native integration into the existing Instagram&amp;nbsp;platform.&lt;/p&gt;
+&lt;p&gt;Time will tell how successful Instagram for Facebook is, but in the meantime we can look back on Facebook&amp;#8217;s product history. This is not meant to be a &amp;#8220;Facebook sucks&amp;#8221; post, there are many quality of pieces of innovation in this list including the Facebook Open Graph Platform, Likes, and&amp;nbsp;Timeline.&lt;/p&gt;
+&lt;p&gt;This history of products gives us a chance to look backwards at product development at Facebook and identify some of the trends that may make a product successful or&amp;nbsp;not.&lt;/p&gt;
+&lt;h2&gt;Facebook Products by&amp;nbsp;Date&lt;/h2&gt;
+&lt;div class=&#34;row-fluid&#34;&gt;
+&lt;div class=&#34;span3&#34;&gt;&lt;strong&gt;News Feed&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span5&#34;&gt;September 6, 2006 - Present&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;strong&gt;2,479 Days&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;row-fluid&#34;&gt;
+&lt;div class=&#34;span3&#34;&gt;&lt;strong&gt;Marketplace&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span5&#34;&gt;May 12, 2007 - March 3, 2009&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;strong&gt;661 Days&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;Craigslist clone&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;row-fluid&#34;&gt;
+&lt;div class=&#34;span3&#34;&gt;&lt;strong&gt;Open Graph&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span5&#34;&gt;May 24, 2007 - Present&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;strong&gt;2,219 Days&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;row-fluid&#34;&gt;
+&lt;div class=&#34;span3&#34;&gt;&lt;strong&gt;Beacon&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span5&#34;&gt;November 6, 2007 - September 18, 2009&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;strong&gt;682 Days&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;row-fluid&#34;&gt;
+&lt;div class=&#34;span3&#34;&gt;&lt;strong&gt;Like&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span5&#34;&gt;February 9, 2009 - Present&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;strong&gt;1,529 Days&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;row-fluid&#34;&gt;
+&lt;div class=&#34;span3&#34;&gt;&lt;strong&gt;Places&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span5&#34;&gt;August 18, 2010 - August 24, 2011&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;strong&gt;371 Days&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;Yelp clone&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;row-fluid&#34;&gt;
+&lt;div class=&#34;span3&#34;&gt;&lt;strong&gt;Credits&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span5&#34;&gt;January 24, 2011 - June 19, 2012&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;strong&gt;512 Days&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;row-fluid&#34;&gt;
+&lt;div class=&#34;span3&#34;&gt;&lt;strong&gt;Deals&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span5&#34;&gt;April 25, 2011 - August 27, 2011&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;strong&gt;124 Days&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;Groupon clone&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&#34;row-fluid&#34;&gt;
+&lt;div class=&#34;span3&#34;&gt;&lt;strong&gt;Timeline&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span5&#34;&gt;December 15, 2011 - Present&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;strong&gt;553 Days&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&#34;row-fluid&#34;&gt;
+&lt;div class=&#34;span3&#34;&gt;&lt;strong&gt;Poke&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span5&#34;&gt;December 21, 2012 - Present&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;strong&gt;181 Days&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;Snapchat clone&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&#34;row-fluid&#34;&gt;
+&lt;div class=&#34;span3&#34;&gt;&lt;strong&gt;Graph Search&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span5&#34;&gt;January 15, 2013 - Present&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;strong&gt;156 Days&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&#34;row-fluid&#34;&gt;
+&lt;div class=&#34;span3&#34;&gt;&lt;strong&gt;Facebook Home&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span5&#34;&gt;April 5, 2013 - Present&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;strong&gt;76 Days&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;row-fluid&#34;&gt;
+&lt;div class=&#34;span3&#34;&gt;&lt;strong&gt;Hashtags&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span5&#34;&gt;June 12, 2013 - Present&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;strong&gt;5 Days&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;Twitter clone&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&#34;row-fluid&#34;&gt;
+&lt;div class=&#34;span3&#34;&gt;&lt;strong&gt;Instagram Video&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span5&#34;&gt;June 20, 2013 - Present&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;&lt;strong&gt;0 Days&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&#34;span2&#34;&gt;Vine clone&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2&gt;Observations&lt;/h2&gt;
+&lt;p&gt;From 2006 to 2012, &lt;strong&gt;Innovative products at Facebook have greatly outperformed their clone counterparts&lt;/strong&gt;. Innovative products performed approximately 66% better than cloned products. Likes, Timeline, Open Graph have all been long-lived and successful. Marketplace, Places, and Deals have suffered (current data suggests Poke will have the same fate). &lt;strong&gt;From 2006 to 2012, Facebook never launched a clone that has not been&amp;nbsp;discontinued.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;But not all innovative products are successful, Beacon and Credits both met an unfortunate end. Data suggests Facebook Home will head to the wayside as&amp;nbsp;well.&lt;/p&gt;
+&lt;p&gt;As we watch Facebook unveil it&amp;#8217;s latest Vine clone, data suggests that this product will be a&amp;nbsp;flop.&lt;/p&gt;            </content>
+        </entry>
             <entry>
             <title type="html">All About the BATNA: Lessons Learned from Jobs' Negotiation with HarperCollins</title>
             <author><name>Ian Alexander</name></author>
