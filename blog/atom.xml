@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>
-        ianalexandr.com    </title>
-        <link href="blog/feed.xml" rel="self" />
+    <title>ianalexandr.com</title>
+        <link href="http://ianalexandr.comblog/atom.xml" rel="self" />
     
-        <link href="/"/>
+        <link href="http://ianalexandr.com"/>
     
         
-    <updated>2013-06-26T17:43:42Z</updated>
+    <updated>2013-06-26T17:57:35Z</updated>
 
-    <id>/blog/feed.xml/</id>
+    <id>http://ianalexandr.com/</id>
 
             <entry>
             <title type="html">A Brief History of Facebook Products</title>
             <author><name>Ian Alexander</name></author>
-            <link href="/blog/a-brief-history-of-facebook-products.html"/>
+            <link href="http://ianalexandr.com/blog/a-brief-history-of-facebook-products.html"/>
             <updated>2013-06-20T12:00:00Z</updated>
             <published>2013-06-20T12:00:00Z</published>
-            <id>/blog/a-brief-history-of-facebook-products.html</id>
+            <id>http://ianalexandr.com/blog/a-brief-history-of-facebook-products.html</id>
             
             <content type="html">
                                 &lt;p&gt;Today Facebook has announced their &lt;a href=&#34;http://blog.instagram.com/post/53448889009/video-on-instagram&#34;&gt;Video for Instagram feature&lt;/a&gt; to much anticipation. The service allows for 15 second videos, stylistic filters, and native integration into the existing Instagram&amp;nbsp;platform.&lt;/p&gt;
@@ -124,10 +123,10 @@
             <entry>
             <title type="html">All About the BATNA: Lessons Learned from Jobs' Negotiation with HarperCollins</title>
             <author><name>Ian Alexander</name></author>
-            <link href="/blog/all-about-the-batna.html"/>
+            <link href="http://ianalexandr.com/blog/all-about-the-batna.html"/>
             <updated>2013-05-23T22:00:00Z</updated>
             <published>2013-05-23T22:00:00Z</published>
-            <id>/blog/all-about-the-batna.html</id>
+            <id>http://ianalexandr.com/blog/all-about-the-batna.html</id>
             
             <content type="html">
                                 &lt;p&gt;Next month Apple will go to trial against the &lt;span class=&#34;caps&#34;&gt;US&lt;/span&gt; Government. The case that alleges Apple was the leader of a price-fixing racket for ebooks. The &lt;span class=&#34;caps&#34;&gt;US&lt;/span&gt; recently &lt;a href=&#34;https://www.documentcloud.org/documents/702951-email-exchange-between-steve-jobs-and-james.html&#34;&gt;released emails between Apple and HarperCollins&lt;/a&gt; that outside of the obvious legal implications show Steve Jobs&amp;#8217; ability to negotiate under pressure and bridge a deal with one of America&amp;#8217;s largest&amp;nbsp;publishers.&lt;/p&gt;
@@ -280,10 +279,10 @@
             <entry>
             <title type="html">Summary of the Amazon Web Services AMA</title>
             <author><name>Ian Alexander</name></author>
-            <link href="/blog/summary-of-amazon-web-services-ama.html"/>
+            <link href="http://ianalexandr.com/blog/summary-of-amazon-web-services-ama.html"/>
             <updated>2013-05-20T22:00:00Z</updated>
             <published>2013-05-20T22:00:00Z</published>
-            <id>/blog/summary-of-amazon-web-services-ama.html</id>
+            <id>http://ianalexandr.com/blog/summary-of-amazon-web-services-ama.html</id>
             
             <content type="html">
                                 &lt;p&gt;Last week, a reddit user under the name &amp;#8216;&lt;span class=&#34;caps&#34;&gt;AWSIAMA&lt;/span&gt;&amp;#8217; &lt;a href=&#34;http://www.reddit.com/r/IAmA/comments/1e5o4p/iaman_exaws_engineer_ask_me_anything_about_the/&#34;&gt;posted an &lt;span class=&#34;caps&#34;&gt;AMA&lt;/span&gt;&lt;/a&gt; about being an Engineer at the &lt;span class=&#34;caps&#34;&gt;AWS&lt;/span&gt; cloud. Like most Reddit AMAs, there is a lot of noise to get to the really good parts. This is a summary of the &lt;span class=&#34;caps&#34;&gt;AMA&lt;/span&gt; highlighting the most interesting and useful pieces of&amp;nbsp;information.&lt;/p&gt;
@@ -334,10 +333,10 @@
             <entry>
             <title type="html">Using EC2 Security Groups with Puppet's ENC in Python</title>
             <author><name>Ian Alexander</name></author>
-            <link href="/blog/using-ec2-security-groups-with-puppets-enc-in-python.html"/>
+            <link href="http://ianalexandr.com/blog/using-ec2-security-groups-with-puppets-enc-in-python.html"/>
             <updated>2013-04-22T08:00:00Z</updated>
             <published>2013-04-22T08:00:00Z</published>
-            <id>/blog/using-ec2-security-groups-with-puppets-enc-in-python.html</id>
+            <id>http://ianalexandr.com/blog/using-ec2-security-groups-with-puppets-enc-in-python.html</id>
             
             <content type="html">
                                 &lt;p&gt;Managing node definitions with an &lt;span class=&#34;caps&#34;&gt;ENC&lt;/span&gt; can be tedious and difficult. For the project I am working on, manually adding and removing node definitions simply won&amp;#8217;t work for me. To work around this, I&amp;#8217;ve written a small &lt;span class=&#34;caps&#34;&gt;ENC&lt;/span&gt; in Python that uses &lt;span class=&#34;caps&#34;&gt;EC2&lt;/span&gt; Security Groups to generate node classification for&amp;nbsp;Puppet.&lt;/p&gt;
@@ -353,10 +352,10 @@
             <entry>
             <title type="html">Getting Started with Django Logging in 5 Minutes</title>
             <author><name>Ian Alexander</name></author>
-            <link href="/blog/getting-started-with-django-logging-in-5-minutes.html"/>
+            <link href="http://ianalexandr.com/blog/getting-started-with-django-logging-in-5-minutes.html"/>
             <updated>2013-04-16T07:30:00Z</updated>
             <published>2013-04-16T07:30:00Z</published>
-            <id>/blog/getting-started-with-django-logging-in-5-minutes.html</id>
+            <id>http://ianalexandr.com/blog/getting-started-with-django-logging-in-5-minutes.html</id>
             
             <content type="html">
                                 &lt;p&gt;Setting up Django logging can sometimes be a little complex, so here are the no-nonsense steps required to make a new Django 1.5 instance log to a file without hassles. We&amp;#8217;re going to look at each of the 4 components of Django&amp;nbsp;logging:&lt;/p&gt;
@@ -408,10 +407,10 @@
             <entry>
             <title type="html">Building a True OAuth 2.0 API with Django and Tasty Pie</title>
             <author><name>Ian Alexander</name></author>
-            <link href="/blog/building-a-true-oauth-20-api-with-django-and-tasty-pie.html"/>
+            <link href="http://ianalexandr.com/blog/building-a-true-oauth-20-api-with-django-and-tasty-pie.html"/>
             <updated>2013-04-10T22:00:00Z</updated>
             <published>2013-04-10T22:00:00Z</published>
-            <id>/blog/building-a-true-oauth-20-api-with-django-and-tasty-pie.html</id>
+            <id>http://ianalexandr.com/blog/building-a-true-oauth-20-api-with-django-and-tasty-pie.html</id>
             
             <content type="html">
                                 &lt;p&gt;Almost a year ago PyDanny wrote a great article entitled &amp;#8220;&lt;a href=&#34;http://pydanny.com/the-sorry-state-of-python-oauth-providers.html&#34;&gt;The Sorry State of Python OAuth Providers&lt;/a&gt;&amp;#8221; detailing the abysmal state of OAuth in Python. One year later we have a few more options, and here I am going to detail how I made a django-based OAuth 2.0 &lt;span class=&#34;caps&#34;&gt;API&lt;/span&gt; with Tasty&amp;nbsp;Pie.&lt;/p&gt;
@@ -499,10 +498,10 @@
             <entry>
             <title type="html">Does the Internet really need another Blog?</title>
             <author><name>Ian Alexander</name></author>
-            <link href="/blog/does-the-internet-really-need-another-blog.html"/>
+            <link href="http://ianalexandr.com/blog/does-the-internet-really-need-another-blog.html"/>
             <updated>2013-04-07T22:00:00Z</updated>
             <published>2013-04-07T22:00:00Z</published>
-            <id>/blog/does-the-internet-really-need-another-blog.html</id>
+            <id>http://ianalexandr.com/blog/does-the-internet-really-need-another-blog.html</id>
             
             <content type="html">
                                 &lt;p&gt;After going back and forth for the last couple of months, I&amp;#8217;ve decided to start writing again. One of the main points I wrestled with was, does the internet need another blog? What value can I add? What will readers gain from my perspective? I have decided that this is a narrow&amp;nbsp;view.&lt;/p&gt;
